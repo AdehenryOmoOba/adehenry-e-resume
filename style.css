@@ -7,11 +7,24 @@
 }
 :root{
     font-size: 62.5%;
-    --mainTextColor:#000000;
-    --mainLinkColor:#0da2b8;
-    --mainBorderColor:rgb(218,218,218);
-    --mainBgColor:rgb(249,250,251);
-    --secondaryTextColor:rgb(51,51,51);
+    /* /////// Light mode ////////////// */
+    --mainTextColor-light:#000000;
+    --mainLinkColor-light:#0da2b8;
+    --mainBorderColor-light:rgb(218,218,218);
+    --mainBgColor-light:rgb(249,250,251);
+    --secondaryTextColor-light:rgb(51,51,51);
+    /* ////////// Dark mode /////////// */
+    --mainTextColor-dark:#ffffff;
+    --mainLinkColor-dark:rgb(254, 254, 254);
+    --mainBorderColor-dark:#2b3031;
+    --mainBgColor-dark:#131415;
+    --secondaryTextColor-dark:#adb0b1;
+    /* ///////////////////// */
+    --mainTextColor: var(--mainTextColor-dark);
+    --mainLinkColor: var(--mainLinkColor-dark);
+    --mainBorderColor: var(--mainBorderColor-dark);
+    --mainBgColor: var(--mainBgColor-dark);
+    --secondaryTextColor: var(--secondaryTextColor-dark);
 }
 body{
     font-family: 'Readex Pro', sans-serif;
@@ -75,5 +88,7 @@ font-weight: 300;
 }
 #socials-list a:hover{
     color: var(--mainLinkColor);
-
+}
+#qualifications-list{
+    list-style: none;
 }
