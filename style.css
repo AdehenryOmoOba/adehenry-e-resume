@@ -107,7 +107,7 @@ font-weight: 300;
 .card-techstack{
     border: 0.1rem solid var(--mainBorderColor);
     padding: 0.5em 1em;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 .card-work-history{
     border-left: 0.1rem solid var(--mainBorderColor);
@@ -129,7 +129,7 @@ font-weight: 300;
     transition: 0.3s;
 }
 .card-certifications a:hover,.card-project a:hover{
-    color: var(--mainLinkColor);
+    color: var(--mainLinkColor-light);
 }
 @media (max-width:60rem) {
     #wraper-hero{
