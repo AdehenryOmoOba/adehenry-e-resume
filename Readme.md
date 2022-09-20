@@ -1,2 +1,6 @@
 ## Electronic Resume
-link - https://adehenryomooba.github.io/adehenry-e-resume
+[link to resume](https://adehenryomooba.github.io/adehenry-e-resume)
+```
+Click link above
+
+```
