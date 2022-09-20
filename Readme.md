@@ -1,5 +1,5 @@
 # Electronic Resume
-[link to resume](https://adehenryomooba.github.io/adehenry-e-resume)
+[View-resume](https://adehenryomooba.github.io/adehenry-e-resume)
 ```
 Click link above to view resume
 ```
